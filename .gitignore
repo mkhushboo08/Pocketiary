@@ -1,9 +1,27 @@
-# OS junk
+# ===== OS =====
 .DS_Store
 Thumbs.db
 
-# Environment variables
+# ===== Environment =====
 .env
-
-# Logs
 *.log
+
+# ===== IntelliJ =====
+.idea/
+*.iml
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Node / React =====
+node_modules/
+dist/
+build/
+
+# ===== Spring Boot / Java =====
+target/
+*.jar
+*.war
+
+# ===== Dependency caches =====
+.gradle/
